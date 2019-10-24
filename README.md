@@ -19,7 +19,7 @@ npm start
 Luego de este paso la api estara disponible en 127.0.0.1:3003/.
 
 ##### Rutas
-1. clientes: GET y POST. recibe un objeto cliente que debe contener obligatoriamente las propiedades user y pass.
+1. clientes: GET, PUT, POST y DELETE. recibe un objeto cliente que debe contener obligatoriamente las propiedades user y pass.
 2. login: POST. Recibe un objeto cliente con las propiedades user y pass y devuelve un token JWT.
 3. auto*: GET y POST: Recibe un objeto auto para cargar.
 4. turnos*: GET y POST: Recibe un objeto turno.
